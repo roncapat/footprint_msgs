@@ -30,7 +30,6 @@ jobs:
       with:
         target-ros2-distro: rolling
         import-token: ${{ secrets.GITHUB_TOKEN }}
-        vcs-repo-file-url: "${{ github.workspace }}/iron.repos"
 
     - name: Upload Logs
       uses: actions/upload-artifact@v1
