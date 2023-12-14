@@ -6,7 +6,7 @@ on:
     branches:
       - iron
   schedule:
-    # At 7:01 & 20:01 each day
+    # At 6:30 each day
     - cron:  '30 06 * * *'
 
 concurrency:
